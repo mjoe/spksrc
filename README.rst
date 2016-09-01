@@ -1,3 +1,5 @@
+.. image:: https://travis-ci.org/mjoe/spksrc.svg?branch=develop
+    :target: https://travis-ci.org/mjoe/spksrc
 spksrc
 ======
 spksrc is a cross compilation framework intended to compile and package softwares for Synology NAS
