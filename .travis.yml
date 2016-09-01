@@ -4,7 +4,7 @@ env :
   global:
     - CHROOTDIR=$HOME/chroot/trusty32 
   matrix:  
-     - ARCH_VERSION=qoriq-4.3
+     - ARCH_VERSION=qoriq
 
 
 before_script:  
