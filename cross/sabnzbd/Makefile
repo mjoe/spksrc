@@ -1,19 +1,22 @@
-
-
-
 PKG_NAME = SABnzbd
-PKG_VERS = 0.6.15
+PKG_VERS = 1.0.3
 PKG_EXT = tar.gz
 PKG_DIST_NAME = $(PKG_NAME)-$(PKG_VERS)-src.$(PKG_EXT)
-PKG_DIST_SITE = http://sourceforge.net/projects/sabnzbdplus/files/sabnzbdplus/sabnzbd-$(PKG_VERS)
+PKG_DIST_SITE = https://github.com/sabnzbd/sabnzbd/releases/download/$(PKG_VERS)
 PKG_DIR = $(PKG_NAME)-$(PKG_VERS)
 
-DEPENDS = 
+DEPENDS =
 
+<<<<<<< HEAD
 MAINTAINER = superzebulon@superzebulon.org
 HOMEPAGE   = http://sabnzbd.org/
 COMMENT    = "Usenet binary downloader"
 LICENSE    = GPL
+=======
+HOMEPAGE = http://sabnzbd.org/
+COMMENT  = Usenet binary downloader
+LICENSE  = GPL
+>>>>>>> SynoCommunity/master
 
 CONFIGURE_TARGET = nop
 COMPILE_TARGET = nop
