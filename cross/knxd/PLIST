@@ -1,0 +1,6 @@
+bin:bin/bcuaddrtab
+bin:bin/bcuread
+bin:bin/eibnetdescribe
+bin:bin/eibnetsearch
+bin:bin/findknxusb
+bin:bin/knxd
