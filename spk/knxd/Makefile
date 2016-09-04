@@ -6,7 +6,7 @@ SPK_ICON = src/knxd.png
 DEPENDS = cross/busybox cross/pthsem cross/libusb cross/knxd
 
 MAINTAINER   = mjoe
-DESCRIPTION  = "A Communication Stack for EIB/KNX (Config: /var/packages/knxd/etc/knxd.cfg)"
+DESCRIPTION  = "A Communication Stack for KNX (Config: /var/packages/knxd/etc/knxd.cfg)"
 RELOAD_UI    = no
 DISPLAY_NAME = knxd
 CHANGELOG    = "First release for SynoCommunity"
