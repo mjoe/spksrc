@@ -1,12 +1,12 @@
 [{
-    "step_title": "Initial eibd configuration",
+    "step_title": "Initial knxd configuration",
     "items": [{
         "type": "textfield",
-        "desc": "Will be written to <code>/var/packages/eibd/etc/eibd.cfg</code>. Existing config will not be replaced!",
+        "desc": "Will be written to <code>/var/packages/knxd/etc/knxd.cfg</code>. Existing config will not be replaced!",
         "subitems": [{
-            "key": "wizard_eibd_options",
-            "desc": "Arguments to eibd",
-            "defaultValue": "-D -T -R -S -i -u --eibaddr=0.0.1 --pid-file=/usr/local/eibd/var/eibd.pid --daemon=/usr/local/eibd/var/eibd.log ipt:192.168.1.1",
+            "key": "wizard_knxd_options",
+            "desc": "Arguments to knxd",
+            "defaultValue": "-D -T -R -S -i -u --eibaddr=0.0.1 --pid-file=/usr/local/knxd/var/knxd.pid --daemon=/usr/local/knxd/var/knxd.log ipt:192.168.1.1",
             "validator": {
                 "allowBlank": false
             }
