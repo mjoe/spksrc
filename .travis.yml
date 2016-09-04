@@ -19,7 +19,7 @@ before_script:
   - sudo chroot $CHROOTDIR pip install -U setuptools pip wheel httpie > /dev/null
   - sudo rsync -av $TRAVIS_BUILD_DIR $CHROOTDIR > /dev/null
   - echo "#!/bin/bash" > ${HOME}/script.sh
-  - echo "sudo chroot $CHROOTDIR bash -c 'cd ${SOURCE} && make arch-${ARCH_VERSION} > /dev/null && find /spksrc'" >> ${HOME}/script.sh
+  - echo "sudo chroot $CHROOTDIR bash -c 'cd ${SOURCE} && make arch-${ARCH_VERSION} > /dev/null && find /spksrc/packages'" >> ${HOME}/script.sh
   - chmod +x ${HOME}/script.sh 
 
 script:
